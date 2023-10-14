@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(193, 193, 193);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .login {
+            background-color: rgb(255, 255, 255);
+            height: 570px;
+            width: 30%;
+            margin-top: 6%;
+            margin-left: 33%;
+            display: flex;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 10px rgb(84, 83, 83);
+        }
+
+        .card {
+            margin-top: 5%;
+            margin-left: 14%;
+            /* display: flex ; */
+            
+        }
+
+        input {
+            border: none;
+            height: 30px;
+            width: 250px;
+            outline: none;
+            border-bottom: 2px solid rgb(193, 190, 190);
+           
+        }
+
+        p {
+
+            font-size: 15px;
+        }
+
+        button {
+            height: 33px;
+            width: 220%;
+            margin-left: 3%;
+            border-radius: 50px;
+            background: linear-gradient(rgb(62, 60, 62), rgb(98, 134, 184), rgb(159, 207, 223));
+            color: rgb(255, 254, 254);
+            border: none;
+        }
+
+        a {
+            
+          color: rgb(234, 234, 234);
+          text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <div class="card">
+            <h1 style="margin-left: 21%;">
+                Login
+            </h1>
+            <form action="">
+
+
+                <table style="margin-top: 5%;  margin-left: -5%; " cellspacing="30px">
+                    <tr>
+                        <td>
+                            <i class="fa-regular fa-user" style="margin-left: 20%;"></i>
+
+                        </td>
+                        <td>
+                            <input type="text" required maxlength="9" placeholder="User-Name"
+                                style="margin-left: -47%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-lock"  style="margin-left: 20%;" ></i>
+                        </td>
+                        <td>
+                            <input type="password" required maxlength="5" placeholder="Password"
+                                style="margin-left: -47%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                <p style="margin-left: 140%; margin-top: -20%;  color: rgb(82, 90, 248); ">
+                                    forgotpassword?
+                                </p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>
+                               <a href="menu.html">
+                                Login
+                               </a>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           <p style="margin-left:77%;  font-size: 15px; width:150px; margin-top: -22%;  " >
+                            Or Sign Up Using
+                          </p> 
+                       
+                        </td>
+                        <td>
+                            <i class="fa-brands fa-facebook" style="margin-left:-20%; margin-top: 20%; font-size: 25px; color: darkblue; "  ></i>
+                        </td>
+                        <td>
+                            <i class="fa-brands fa-twitter" style="margin-left: -1200%; margin-top: 200%; color: rgb(104, 104, 235); font-size: 25px; "  ></i>
+                        </td>
+                        <td>
+                            <i class="fa-brands fa-google" style="margin-left:-1540%; color: rgb(133, 122, 122); margin-top:250%;font-size: 22px;"  ></i>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
